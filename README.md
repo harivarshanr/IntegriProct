@@ -1,43 +1,51 @@
-# IntegriProct - Assessment Proctoring System
-### IntegriProct is a smart and flexible exam proctoring system designed for digital classroom environments. It offers rule-based and AI-powered proctoring features to maintain test integrity and support both teachers and students.
+# 🛡️ IntegriProct
 
-## Technology Used
-### Next.js 
-### Node.js 
-### Express.js 
-### Python 
-### MongoDB
+**IntegriProct** is an AI-powered proctoring platform built to maintain integrity during online assessments. It includes features like face detection, tab switch tracking, voice activity monitoring, and more to ensure secure and fair exam environments.
 
-## Features
-### 1. Rule-Based Proctoring – Core Monitoring
-  Detects and logs copy-paste actions.
-  Tracks tab switches with timestamps.
-  Records webcam video during exams for review.
-  Logs screen activity throughout the test.
-  Proctoring can be enabled per test (e.g., only for quizzes/exams).
+---
 
-### 2. Per-Test Proctoring Customization
-  Teachers can customize proctoring settings for each assessment.
-  Example: Enable webcam + tab switch for final exams; restrict copy-paste for quizzes.
-  Provides flexibility and scalability for real-world classroom scenarios.
+## 🚀 Features
 
-### 3. Resumable Test Experience
-  Auto-saves progress locally during internet/power failures.
-  Allows students to resume tests from where they left off.
-  Ensures fairness, especially in low-connectivity areas.
+- 🎥 Webcam-based face detection (with multi-face flagging)
+- 📄 Copy-paste tracking during exams
+- 🔇 Voice detection to flag conversations
+- 🔀 Tab switch and screen navigation tracking
+- 📈 Admin dashboard for monitoring violations
+- ⚙️ Toggleable proctoring controls per test
 
-### 4. AI-Powered Proctoring – Smart Detection
-  Detects multiple faces in webcam feed.
-  Monitors voices to flag multiple speakers.
-  (Proof of Concept) Eye Gaze Tracking to detect off-screen focus.
+---
 
-### 5. Live Teacher Dashboard
-  Real-time monitoring interface for teachers.
-  Displays live webcam feed and screen activity.
-  Provides instant alerts for suspicious behavior.
-  Live event logging (e.g., tab switches, audio spikes).
+## 🛠️ Tech Stack
 
-### 6. Cheating Analysis & Test Results
-  Calculates a Cheating Probability Score based on activity logs.
-  Generates detailed proctoring reports for each student.
-  Displays test results along with integrity rating (Low / Medium / High suspicion).
+- **Frontend**: React / Next.js
+- **Backend**: FastAPI / Node.js
+- **AI/ML**: BlazeFace / TensorFlow.js
+- **Database**: MongoDB
+---
+
+
+## 📋 Getting Started
+
+### 1. Clone the Repository
+
+    git clone https://github.com/harivarshanr/IntegriProct.git
+    cd IntegriProct
+
+### 2. Install Dependencies
+
+    npm install
+
+### 3. Run the Development Server
+
+    npm run dev
+
+Then open your browser at:  
+[http://localhost:3000](http://localhost:3000)
+
+
+
+---
+
+## 👨‍💻 Author
+
+Developed by [R Hari Varshan](https://github.com/harivarshanr)
